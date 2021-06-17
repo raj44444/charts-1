@@ -336,7 +336,7 @@ ldap:
 service:
   ## PosgresSQL service type
   ##
-  type: ClusterIP
+  type: LoadBalancer
   # clusterIP: None
   port: 5432
 
